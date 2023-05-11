@@ -1,7 +1,7 @@
   /* CONFIGURATION STARTS HERE */
   
   /* Step 1: enter your domain name like fruitionsite.com */
-  const MY_DOMAIN = 'reid-fiverr-demo.weckmann.workers.dev';
+  const MY_DOMAIN = 'reid-fiverr-demo.weckmann.workers.dev'; //example.com no https:// or trailing slashes
   
   /*
    * Step 2: enter your URL slug to page ID mapping
@@ -9,7 +9,7 @@
    * The value on the right is the Notion page ID
    */
   const SLUG_TO_PAGE = {
-    '': '3a09bf1d8bff42f0a9c8d3c6a92ea62f',
+    '': '3a09bf1d8bff42f0a9c8d3c6a92ea62f', // add notion ID here
   };
   
   /* Step 3: enter your page title and description for SEO purposes */
