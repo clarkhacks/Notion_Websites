@@ -2,23 +2,24 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '3a09bf1d8bff42f0a9c8d3c6a92ea62f', // Notion ID
+  rootNotionPageId: 'de2c9139e49d40a099462bee4736a5e1', // Notion ID
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit', // Title of your site
-  domain: 'nextjs-notion-starter-kit.vercel.app',
+  name: 'Internal Portal Fix It Deans', // Title of your site
+  domain: 'docs.fixitdeans.com', // Domain of your site without prefix!
   author: 'Clark Weckmann',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description:
+    'This is an internal tool for the benefit of all Organizational Members.',
 
   // social usernames (optional)
-  twitter: 'theweckmann',
-  github: 'clarkhacks',
+  // twitter: 'theweckmann',
+  // github: 'clarkhacks',
   // linkedin: '#',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
